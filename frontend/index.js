@@ -5,7 +5,6 @@ document.addEventListener("DOMContentLoaded", () => {
         .then((txt) => {
             SUBS = Number(txt);
             sub_percent = (SUBS / 1_000_000) * 100;
-            console.log(sub_percent);
             document.getElementById("sub-percent").innerText =
                 sub_percent + "%";
 
