@@ -6,12 +6,13 @@
 *, *::before, *::after {
     box-sizing: border-box;
     font-family: 'Roboto Mono';
-    overflow: hidden;
 }
 
 body {
     padding: none;
     margin: none;
+    overflow-x: hidden;
+    overflow-y: scroll;
 }
 
 header {
@@ -109,6 +110,7 @@ footer a {
     height: 3em;
     padding: 1.2em;
     border: 3px solid rgb(62, 62, 62);
+    overflow: hidden;
 }
 
 .fill {
@@ -158,6 +160,7 @@ section {
     text-decoration: none;
     background-color: red;
     color: white;
+    padding: .8em 0em .8em 0em;
 }
 
 .info #sub-btn:hover {
